@@ -1,0 +1,2110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Shannon\Dropbox\moog\spankulator\Spankulator-Hardware\Spankulator.sch</source>
+    <date>8/17/2020 10:08:16 AM</date>
+    <tool>Eeschema (5.1.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Spankulator</title>
+        <company>Greenface Labs</company>
+        <rev>2.1</rev>
+        <date/>
+        <source>Spankulator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_33IoT</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">1050-ABX00032-ND</field>
+      </fields>
+      <libsource lib="MCU_Module" part="Arduino_Nano_v3.x" description="Arduino Nano v3.x"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDEC8C4</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE0A0B6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE0DE0C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE0FA7F</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE2C30E</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>GREEN LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5008-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE270EB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT1K00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE28EA8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>2X8 Header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">S2011EC-08-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x08_Odd_Even" description="Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE4CAA3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">478-2472-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CECA0CE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>http://www.rubycon.co.jp/en/catalog/e_pdfs/aluminum/e_ml.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">1189-3982-ND</field>
+      </fields>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEE41D1</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">1189-3982-ND</field>
+      </fields>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEE5092</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">478-2472-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2F9F59</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">478-2472-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D306F44</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Keystone_5005-5009_Compact</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">36-5006-ND</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D129D3E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>CD4013BE</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_Socket</footprint>
+      <fields>
+        <field name="Digi-Key Part">296-2033-5-ND</field>
+      </fields>
+      <libsource lib="4xxx_IEEE" part="4013" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E2C31DF</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>http://www.vishay.com/docs/81857/1n4148.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">1N4148VSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DA37CB8</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>~</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">450-1643-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3357D5</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>~</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">450-1643-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3C47C2</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>~</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">450-1643-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E44A836</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>~</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">450-1643-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E460C9B</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Adj</value>
+      <footprint>digikey-footprints:Rotary_Encoder_Switched_PEC11R</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">PEC11R-4315F-S0012</field>
+      </fields>
+      <libsource lib="Spankulator-rescue" part="Rotary_Encoder_Switch-spankulator-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E478C05</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">BC2662CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4FC539</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">BC2662CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4FD2CC</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>~</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">450-1643-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6D1BC2</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>~</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">450-1643-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6D2230</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>YELLOW LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">160-1961-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB2BC25</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT1K00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB2CCA6</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">RNF14FTD100KCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDB379</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT47K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDDB7D6</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">PPC470W-1CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEBAE1B</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>301K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">301KXBK-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F427C66</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT470RCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5487F4</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>BLUE LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-11401-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6066A2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT1K00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F606CFA</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA22A42</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">56-SFR25H0004700FR500CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA22A57</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">56-SFR25H0004700FR500CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA22A5E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA22A70</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>47K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT1M00CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA22A77</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">PPC470W-1CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB0AA21</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MC7805CTG</value>
+      <footprint>digikey-footprints:TO-220-3</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">MC7805CTGOS-ND</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC28441</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>~</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">450-1643-ND</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5500CF</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TL072</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">296-14997-5-ND</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E60ACF3</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6D0780</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E81CB6D</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E84A87B</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E84B54C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>3.5mm Jack</value>
+      <footprint>sputterizer:Molex-0472570001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">WM17366-ND</field>
+      </fields>
+      <libsource lib="Spankulator-rescue" part="Molex_47257-spankulator-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E87C0F8</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>3.5mm Jack</value>
+      <footprint>sputterizer:Molex-0472570001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">WM17366-ND</field>
+      </fields>
+      <libsource lib="Spankulator-rescue" part="Molex_47257-spankulator-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E955DCE</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>3.5mm Jack</value>
+      <footprint>sputterizer:Molex-0472570001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">WM17366-ND</field>
+      </fields>
+      <libsource lib="Spankulator-rescue" part="Molex_47257-spankulator-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E98280C</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>3.5mm Jack</value>
+      <footprint>sputterizer:Molex-0472570001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">WM17366-ND</field>
+      </fields>
+      <libsource lib="Spankulator-rescue" part="Molex_47257-spankulator-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9AE5CD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>3.5mm Jack</value>
+      <footprint>sputterizer:Molex-0472570001</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">WM17366-ND</field>
+      </fields>
+      <libsource lib="Spankulator-rescue" part="Molex_47257-spankulator-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA1A816</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>330nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">445-173597-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBCA72E</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>FRAM Header</value>
+      <footprint>sputterizer:PinHeader_1x8_P2.54mm_Drill1.02mm</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/molex/0022232041/WM4202-ND/26671</field>
+        <field name="Description">CONN HEADER VERT 4POS 2.54MM</field>
+        <field name="Digi-Key Part">S7041-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">0022232041</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="8PINHeader" description="CONN HEADER VERT 4POS 2.54MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F494BE8</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Display Header</value>
+      <footprint>sputterizer:OLED_Header</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/molex/0022232041/WM4202-ND/26671</field>
+        <field name="Description">CONN HEADER VERT 4POS 2.54MM</field>
+        <field name="Digi-Key Part">S7037-ND</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="MPN">0022232041</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="0022232041" description="CONN HEADER VERT 4POS 2.54MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F15DBC9</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB7B7DF</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB7C675</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB7CA90</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB7D114</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">478-2472-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC2C4E3</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>330nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">445-173597-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC649AF</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>sputterizer:MountingHole_2.5mm-No-Margin</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5112C7</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>TN2106</value>
+      <footprint>digikey-footprints:TO-92-3_Formed_Leads</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</datasheet>
+      <fields>
+        <field name="Digi-Key Part">TN2106N3-G-ND</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="2N7000" description="MOSFET N-CH 60V 200MA TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC51B8C</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEFB64B</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>RED LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://katalog.we-online.de/led/datasheet/151031SS04000.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">732-5005-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEFBA2A</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>301K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">301KXBK-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2994CF</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT470RCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3551EE</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3551F5</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3551FC</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>301K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">301KXBK-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F419425</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>1K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">PTV09A-4225F-B102-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_POT_US" description="Potentiometer, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD12529</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6036F880</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6036F887</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6B0942</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">RNF14FTD100KCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6F9702</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">RNF14FTD100KCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B3D08</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>301K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">301KXBK-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B429D</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">478-2472-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB3E61E</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <datasheet>http://datasheets.avx.com/SR-Series.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">478-2472-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB3E9D9</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>200K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">200KXBK-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB3497C</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>200K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">200KXBK-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC0B0E2</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>133K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">133KXBK-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB9CE2</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">445-180204-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E910FBA</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED0C40A</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp</footprint>
+      <datasheet>http://www.vishay.com/docs/81857/1n4148.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">1N4148VSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC79B09</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC1A374</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDE31F5</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>SB120</value>
+      <footprint>sputterizer:D_DO-41_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">SB120FSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDE31FC</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">CF14JT10K0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDE3214</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Expansion Header</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">S2011EC-04-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F2A4B1F</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TL072</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">296-14997-5-ND</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5EF219</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">2N3904FS-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3287AF</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">2N3904FS-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32A403</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">2N3906FS-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32B30E</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N3906</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</datasheet>
+      <fields>
+        <field name="Digi-Key Part">2N3906FS-ND</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="2N3906" description="-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F32E029</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Keystone_5005-5009_Compact</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">36-5006-ND</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB5A5F2</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Digi-Key Part">RNF14FTD100KCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3B9874</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4xxx_IEEE" part="4013">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4013</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q" type="output"/>
+        <pin num="2" name="~Q" type="output"/>
+        <pin num="3" name="Cp" type="input"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="D" type="input"/>
+        <pin num="6" name="S" type="input"/>
+        <pin num="7" name="Vss" type="power_in"/>
+        <pin num="8" name="S" type="input"/>
+        <pin num="9" name="D" type="input"/>
+        <pin num="10" name="R" type="input"/>
+        <pin num="11" name="Cp" type="input"/>
+        <pin num="12" name="~Q" type="input"/>
+        <pin num="13" name="Q" type="input"/>
+        <pin num="14" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x08_Odd_Even">
+      <description>Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x08_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1_Small">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_US">
+      <description>Potentiometer, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_v3.x">
+      <aliases>
+        <alias>Arduino_Nano_v2.x</alias>
+      </aliases>
+      <description>Arduino Nano v3.x</description>
+      <docs>http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v3.x</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="BiDi"/>
+        <pin num="2" name="D0/RX" type="BiDi"/>
+        <pin num="3" name="RESET" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="BiDi"/>
+        <pin num="20" name="A1" type="BiDi"/>
+        <pin num="21" name="A2" type="BiDi"/>
+        <pin num="22" name="A3" type="BiDi"/>
+        <pin num="23" name="A4" type="BiDi"/>
+        <pin num="24" name="A5" type="BiDi"/>
+        <pin num="25" name="A6" type="BiDi"/>
+        <pin num="26" name="A7" type="BiDi"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="RESET" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Spankulator-rescue" part="Molex_47257-spankulator-rescue">
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Molex_47257-spankulator-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="T" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="SW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Spankulator-rescue" part="Rotary_Encoder_Switch-spankulator-rescue">
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch-spankulator-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="passive"/>
+        <pin num="2" name="S2" type="passive"/>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3906">
+      <aliases>
+        <alias>2N3905</alias>
+      </aliases>
+      <description>-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92</description>
+      <docs>https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3906</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="0022232041">
+      <description>CONN HEADER VERT 4POS 2.54MM</description>
+      <docs>https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">0022232041</field>
+        <field name="Footprint">digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</field>
+        <field name="Digi-Key_PN">WM4202-ND</field>
+        <field name="MPN">0022232041</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="DK_Datasheet_Link">https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/molex/0022232041/WM4202-ND/26671</field>
+        <field name="Description">CONN HEADER VERT 4POS 2.54MM</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Rectangular-Connectors-Headers-Male-Pins" part="8PINHeader">
+      <description>CONN HEADER VERT 4POS 2.54MM</description>
+      <docs>https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">8PINHeader</field>
+        <field name="Footprint">digikey-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</field>
+        <field name="Digi-Key_PN">WM4202-ND</field>
+        <field name="MPN">0022232041</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Rectangular Connectors - Headers, Male Pins</field>
+        <field name="DK_Datasheet_Link">https://www.molex.com/pdm_docs/sd/022232041_sd.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/molex/0022232041/WM4202-ND/26671</field>
+        <field name="Description">CONN HEADER VERT 4POS 2.54MM</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Transistors-FETs-MOSFETs-Single" part="2N7000">
+      <description>MOSFET N-CH 60V 200MA TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7000</field>
+        <field name="Footprint">digikey-footprints:TO-92-3</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Digi-Key_PN">2N7000FS-ND</field>
+        <field name="MPN">2N7000</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/2N7000/2N7000FS-ND/244278</field>
+        <field name="Description">MOSFET N-CH 60V 200MA TO-92</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="BiDi"/>
+        <pin num="2" name="G" type="BiDi"/>
+        <pin num="3" name="D" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4xxx_IEEE">
+      <uri>C:\Program Files\KiCad\share\kicad\library/4xxx_IEEE.lib</uri>
+    </library>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Module.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Spankulator-rescue">
+      <uri>C:/Users/Shannon/Dropbox/Greenface/Spankulator/Spankulator-rescue.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="dk_Rectangular-Connectors-Headers-Male-Pins">
+      <uri>C:/Users/Shannon/Dropbox/KiCAD/digikey-symbols/dk_Rectangular-Connectors-Headers-Male-Pins.lib</uri>
+    </library>
+    <library logical="dk_Transistors-FETs-MOSFETs-Single">
+      <uri>C:/Users/Shannon/Dropbox/KiCAD/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R15-Pad1)">
+      <node ref="R26" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R27-Pad1)">
+      <node ref="U3" pin="6"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="4" name="Net-(A1-Pad20)">
+      <node ref="RV1" pin="2"/>
+      <node ref="A1" pin="20"/>
+    </net>
+    <net code="5" name="Net-(R23-Pad2)">
+      <node ref="R24" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="6" name="1.65V">
+      <node ref="U3" pin="5"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="7" name="+3V3">
+      <node ref="J8" pin="8"/>
+      <node ref="R24" pin="2"/>
+      <node ref="A1" pin="17"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J9" pin="2"/>
+      <node ref="D15" pin="1"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="9" name="Net-(A1-Pad22)">
+      <node ref="D20" pin="1"/>
+      <node ref="D19" pin="2"/>
+      <node ref="A1" pin="22"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="D18" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="11" name="Net-(A1-Pad14)">
+      <node ref="Q1" pin="2"/>
+      <node ref="A1" pin="14"/>
+    </net>
+    <net code="12" name="/Left">
+      <node ref="SW7" pin="2"/>
+      <node ref="A1" pin="25"/>
+    </net>
+    <net code="13" name="Net-(R12-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R29-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R31" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="15" name="/Param-">
+      <node ref="SW5" pin="2"/>
+      <node ref="A1" pin="13"/>
+    </net>
+    <net code="16" name="/Right">
+      <node ref="SW6" pin="2"/>
+      <node ref="A1" pin="26"/>
+    </net>
+    <net code="17" name="/SDA">
+      <node ref="A1" pin="23"/>
+      <node ref="J9" pin="4"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="18" name="/B">
+      <node ref="A1" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="SW1" pin="B"/>
+    </net>
+    <net code="19" name="/A">
+      <node ref="A1" pin="6"/>
+      <node ref="C2" pin="1"/>
+      <node ref="SW1" pin="A"/>
+    </net>
+    <net code="20" name="+12V">
+      <node ref="U4" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J2" pin="9"/>
+      <node ref="D11" pin="1"/>
+      <node ref="J7" pin="5"/>
+      <node ref="J2" pin="10"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="21" name="Net-(A1-Pad21)">
+      <node ref="A1" pin="21"/>
+      <node ref="R15" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D16" pin="1"/>
+    </net>
+    <net code="22" name="Net-(A1-Pad15)">
+      <node ref="A1" pin="15"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D14-Pad2)">
+      <node ref="R14" pin="1"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="24" name="-12V">
+      <node ref="J2" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J7" pin="6"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="D18" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="25" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="26" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D7-Pad2)">
+      <node ref="R20" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="28" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="29" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="30" name="Net-(J3-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="31" name="Net-(J4-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="32" name="Net-(A1-Pad12)">
+      <node ref="R2" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="A1" pin="12"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="33" name="Net-(R11-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D13-Pad1)">
+      <node ref="U2" pin="12"/>
+      <node ref="D13" pin="1"/>
+    </net>
+    <net code="35" name="Net-(Q1-Pad3)">
+      <node ref="U2" pin="10"/>
+      <node ref="R5" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="36" name="/SCL">
+      <node ref="J8" pin="5"/>
+      <node ref="J9" pin="3"/>
+      <node ref="J7" pin="2"/>
+      <node ref="A1" pin="24"/>
+    </net>
+    <net code="37" name="Net-(A1-Pad16)">
+      <node ref="A1" pin="16"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="38" name="GND">
+      <node ref="J6" pin="4"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J8" pin="7"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="A1" pin="4"/>
+      <node ref="A1" pin="29"/>
+      <node ref="J2" pin="5"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D20" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="SW1" pin="C"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="J7" pin="8"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="40" name="+5V">
+      <node ref="U2" pin="9"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="A1" pin="30"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U4" pin="3"/>
+      <node ref="D7" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="42" name="/Rpeat">
+      <node ref="SW4" pin="2"/>
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="43" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="45" name="Net-(A1-Pad8)">
+      <node ref="R3" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="A1" pin="8"/>
+    </net>
+    <net code="46" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="47" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="48" name="Net-(J2-Pad11)">
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="49" name="Net-(J2-Pad12)">
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="50" name="Net-(J2-Pad13)">
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad14)">
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="52" name="Net-(J2-Pad15)">
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="53" name="Net-(J2-Pad16)">
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="54" name="/Trigger">
+      <node ref="D13" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="A1" pin="10"/>
+      <node ref="J7" pin="7"/>
+    </net>
+    <net code="55" name="Net-(A1-Pad18)">
+      <node ref="A1" pin="18"/>
+    </net>
+    <net code="56" name="Net-(A1-Pad19)">
+      <node ref="R12" pin="2"/>
+      <node ref="A1" pin="19"/>
+    </net>
+    <net code="57" name="Net-(A1-Pad27)">
+      <node ref="A1" pin="27"/>
+    </net>
+    <net code="58" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28"/>
+    </net>
+    <net code="59" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="60" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="61" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="62" name="Net-(J3-Pad4)">
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="63" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="64" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="65" name="Net-(J6-Pad2)">
+      <node ref="R25" pin="1"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="66" name="Net-(J1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D11-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="R31" pin="1"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="68" name="Net-(J8-Pad6)">
+      <node ref="J8" pin="6"/>
+    </net>
+    <net code="69" name="/Up">
+      <node ref="A1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="70" name="/Down">
+      <node ref="A1" pin="1"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="71" name="Net-(J8-Pad3)">
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="72" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="73" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="74" name="Net-(A1-Pad9)">
+      <node ref="R4" pin="1"/>
+      <node ref="A1" pin="9"/>
+    </net>
+    <net code="75" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="76" name="/Param+">
+      <node ref="A1" pin="11"/>
+      <node ref="SW8" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D4-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+  </nets>
+</export>
