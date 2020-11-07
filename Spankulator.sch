@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Spankulator"
 Date ""
-Rev "2.1"
+Rev "2.2"
 Comp "Greenface Labs"
 Comment1 ""
 Comment2 ""
@@ -84,7 +84,7 @@ F 2 "LED_THT:LED_D3.0mm" H 2550 1000 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/151031SS04000.pdf" H 2550 1000 50  0001 C CNN
 F 4 "732-5008-ND" V 2550 1000 50  0001 C CNN "Digi-Key Part"
 	1    2550 1000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small_US R2
@@ -688,7 +688,6 @@ F 4 "PPC470W-1CT-ND" V 9450 1000 50  0001 C CNN "Digi-Key Part"
 $EndComp
 Wire Wire Line
 	2150 1000 2150 1500
-Connection ~ 2150 1850
 Wire Wire Line
 	9550 3850 9850 3850
 Connection ~ 9750 4250
@@ -764,7 +763,7 @@ F 2 "LED_THT:LED_D3.0mm" H 2550 1500 50  0001 C CNN
 F 3 "https://katalog.we-online.de/led/datasheet/151031SS04000.pdf" H 2550 1500 50  0001 C CNN
 F 4 "732-11401-ND" V 2550 1500 50  0001 C CNN "Digi-Key Part"
 	1    2550 1500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small_US R3
@@ -780,9 +779,6 @@ F 4 "CF14JT1K00CT-ND" V 3200 1500 50  0001 C CNN "Digi-Key Part"
 $EndComp
 Wire Wire Line
 	2150 1500 2400 1500
-Connection ~ 2150 1500
-Wire Wire Line
-	2150 1500 2150 1850
 Wire Wire Line
 	2700 1500 3100 1500
 Wire Wire Line
@@ -1346,8 +1342,8 @@ Text Label 5500 3400 0    50   ~ 0
 SCL
 Text Label 5500 3300 0    50   ~ 0
 SDA
-Text Notes 600  6750 0    50   ~ 0
-Trigger In
+Text Notes 600  6700 0    50   ~ 0
+Ext Trigger In
 Wire Wire Line
 	700  3700 700  3650
 Connection ~ 700  3650
@@ -1439,13 +1435,13 @@ $EndComp
 $Comp
 L dk_Transistors-FETs-MOSFETs-Single:2N7000 Q1
 U 1 1 5EC51B8C
-P 2350 5850
-F 0 "Q1" H 2000 6050 60  0000 L CNN
-F 1 "TN2106" H 1700 5950 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3_Formed_Leads" H 2550 6050 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BS170-D.PDF" H 2550 6150 60  0001 L CNN
-F 4 "TN2106N3-G-ND" H 2550 6250 60  0001 L CNN "Digi-Key Part"
-	1    2350 5850
+P 2350 5600
+F 0 "Q1" H 2500 5600 60  0000 L CNN
+F 1 "TN2106" H 2500 5500 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3_Formed_Leads" H 2550 5800 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BS170-D.PDF" H 2550 5900 60  0001 L CNN
+F 4 "TN2106N3-G-ND" H 2550 6000 60  0001 L CNN "Digi-Key Part"
+	1    2350 5600
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1597,9 +1593,9 @@ Wire Wire Line
 	8400 4150 8500 4150
 Wire Wire Line
 	5450 4850 5450 4750
-Text Notes 2600 1150 0    50   ~ 0
+Text Notes 2700 1100 0    50   ~ 0
 Gate
-Text Notes 2650 1650 0    50   ~ 0
+Text Notes 2800 1600 0    50   ~ 0
 Tog\n
 Text Notes 2650 2000 0    50   ~ 0
 Repeat On
@@ -1632,21 +1628,19 @@ $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 5FA933A5
-P 2350 6200
-F 0 "#PWR07" H 2350 5950 50  0001 C CNN
-F 1 "GND" H 2355 6027 50  0000 C CNN
-F 2 "" H 2350 6200 50  0001 C CNN
-F 3 "" H 2350 6200 50  0001 C CNN
-	1    2350 6200
+P 2350 5800
+F 0 "#PWR07" H 2350 5550 50  0001 C CNN
+F 1 "GND" H 2500 5750 50  0000 C CNN
+F 2 "" H 2350 5800 50  0001 C CNN
+F 3 "" H 2350 5800 50  0001 C CNN
+	1    2350 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 5650 2350 5600
-Wire Wire Line
-	2350 6050 2350 6200
+	2350 5400 2350 5350
 Text Notes 3250 3450 0    50   ~ 0
 Triggered
-Text Notes 2750 5950 0    50   ~ 0
+Text Notes 2750 5700 0    50   ~ 0
 Reset Trigger
 $Comp
 L Device:R_POT_US RV1
@@ -1984,25 +1978,12 @@ F 4 "445-180204-ND" V 8800 4850 50  0001 C CNN "Digi-Key Part"
 	1    8800 4850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR0112
-U 1 1 5EA2BD92
-P 2000 6700
-F 0 "#PWR0112" H 2000 6550 50  0001 C CNN
-F 1 "+5V" H 2015 6873 50  0000 C CNN
-F 2 "" H 2000 6700 50  0001 C CNN
-F 3 "" H 2000 6700 50  0001 C CNN
-	1    2000 6700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 6700 2000 6800
 Text Label 2800 4250 0    50   ~ 0
 Left
 Wire Wire Line
 	4000 3400 3800 3400
 Wire Wire Line
-	2650 5950 3800 5950
+	2650 5700 3800 5700
 Wire Wire Line
 	5000 3500 5150 3500
 Wire Wire Line
@@ -2010,20 +1991,18 @@ Wire Wire Line
 Wire Wire Line
 	2750 4250 5150 4250
 Wire Wire Line
-	3800 3400 3800 5950
+	3800 3400 3800 5700
 $Comp
 L power:+5V #PWR0113
 U 1 1 5EC564C6
-P 1200 5500
-F 0 "#PWR0113" H 1200 5350 50  0001 C CNN
-F 1 "+5V" H 1215 5673 50  0000 C CNN
-F 2 "" H 1200 5500 50  0001 C CNN
-F 3 "" H 1200 5500 50  0001 C CNN
-	1    1200 5500
-	1    0    0    -1  
+P 1200 5350
+F 0 "#PWR0113" H 1200 5200 50  0001 C CNN
+F 1 "+5V" H 1215 5523 50  0000 C CNN
+F 2 "" H 1200 5350 50  0001 C CNN
+F 3 "" H 1200 5350 50  0001 C CNN
+	1    1200 5350
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1200 5500 1200 5600
 Wire Wire Line
 	1200 4850 1400 4850
 $Comp
@@ -2065,28 +2044,26 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R5
 U 1 1 5EC1A374
-P 1500 5600
-F 0 "R5" V 1400 5600 50  0000 C CNN
-F 1 "10K" V 1600 5600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1500 5600 50  0001 C CNN
-F 3 "~" H 1500 5600 50  0001 C CNN
-F 4 "CF14JT10K0CT-ND" V 1500 5600 50  0001 C CNN "Digi-Key Part"
-	1    1500 5600
+P 1500 5350
+F 0 "R5" V 1400 5350 50  0000 C CNN
+F 1 "10K" V 1600 5350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1500 5350 50  0001 C CNN
+F 3 "~" H 1500 5350 50  0001 C CNN
+F 4 "CF14JT10K0CT-ND" V 1500 5350 50  0001 C CNN "Digi-Key Part"
+	1    1500 5350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1600 5600 1800 5600
+	1600 5350 1800 5350
 Wire Wire Line
 	2000 4950 1800 4950
 Wire Wire Line
-	1800 4950 1800 5600
-Connection ~ 1800 5600
+	1800 4950 1800 5350
+Connection ~ 1800 5350
 Wire Wire Line
-	1800 5600 2350 5600
+	1800 5350 2350 5350
 Wire Wire Line
 	2000 7000 1800 7000
-Wire Wire Line
-	1800 7000 1800 5600
 Wire Wire Line
 	2150 3100 2150 3300
 Wire Wire Line
@@ -2097,7 +2074,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 4850 1800 4850
 Wire Wire Line
-	1400 5600 1200 5600
+	1400 5350 1200 5350
 $Comp
 L power:GND #PWR0114
 U 1 1 5EEB23BB
@@ -2296,36 +2273,32 @@ Wire Wire Line
 	4600 3950 5450 3950
 Wire Wire Line
 	4000 3600 3900 3600
-Wire Wire Line
-	3900 3600 3900 4350
-Wire Wire Line
-	3900 4350 4350 4350
 $Comp
 L power:+3.3V #PWR020
 U 1 1 5F363E75
-P 4250 4450
-F 0 "#PWR020" H 4250 4300 50  0001 C CNN
-F 1 "+3.3V" V 4250 4700 50  0000 C CNN
-F 2 "" H 4250 4450 50  0001 C CNN
-F 3 "" H 4250 4450 50  0001 C CNN
-	1    4250 4450
+P 4300 4450
+F 0 "#PWR020" H 4300 4300 50  0001 C CNN
+F 1 "+3.3V" V 4300 4700 50  0000 C CNN
+F 2 "" H 4300 4450 50  0001 C CNN
+F 3 "" H 4300 4450 50  0001 C CNN
+	1    4300 4450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4250 4450 4350 4450
+	4300 4450 4350 4450
 $Comp
 L power:+12V #PWR021
 U 1 1 5F38ACE8
-P 4250 4550
-F 0 "#PWR021" H 4250 4400 50  0001 C CNN
-F 1 "+12V" V 4250 4800 50  0000 C CNN
-F 2 "" H 4250 4550 50  0001 C CNN
-F 3 "" H 4250 4550 50  0001 C CNN
-	1    4250 4550
+P 4300 4550
+F 0 "#PWR021" H 4300 4400 50  0001 C CNN
+F 1 "+12V" V 4300 4800 50  0000 C CNN
+F 2 "" H 4300 4550 50  0001 C CNN
+F 3 "" H 4300 4550 50  0001 C CNN
+	1    4300 4550
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4250 4550 4350 4550
+	4300 4550 4350 4550
 $Comp
 L power:-12V #PWR023
 U 1 1 5F3B26B8
@@ -2389,7 +2362,7 @@ U 1 1 5F3287AF
 P 8150 1200
 F 0 "Q5" H 8340 1246 50  0000 L CNN
 F 1 "2N3904" H 8340 1155 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8350 1125 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 8350 1125 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8150 1200 50  0001 L CNN
 F 4 "2N3904FS-ND" H 8150 1200 50  0001 C CNN "Digi-Key Part"
 	1    8150 1200
@@ -2401,7 +2374,7 @@ U 1 1 5F32A403
 P 6700 1800
 F 0 "Q3" H 6890 1846 50  0000 L CNN
 F 1 "2N3904" H 6900 1750 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6900 1725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 6900 1725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6700 1800 50  0001 L CNN
 F 4 "2N3904FS-ND" H 6700 1800 50  0001 C CNN "Digi-Key Part"
 	1    6700 1800
@@ -2416,7 +2389,7 @@ U 1 1 5F32B30E
 P 8150 800
 F 0 "Q4" H 8340 754 50  0000 L CNN
 F 1 "2N3906" H 8340 845 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8350 725 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 8350 725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 8150 800 50  0001 L CNN
 F 4 "2N3906FS-ND" H 8150 800 50  0001 C CNN "Digi-Key Part"
 	1    8150 800 
@@ -2428,7 +2401,7 @@ U 1 1 5F32E029
 P 6700 1400
 F 0 "Q2" H 6890 1354 50  0000 L CNN
 F 1 "2N3906" H 6890 1445 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6900 1325 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 6900 1325 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6700 1400 50  0001 L CNN
 F 4 "2N3906FS-ND" H 6700 1400 50  0001 C CNN "Digi-Key Part"
 	1    6700 1400
@@ -2584,10 +2557,89 @@ U 1 1 5F3B9874
 P 5950 2200
 F 0 "R12" V 5850 2200 50  0000 C CNN
 F 1 "100K" V 6050 2200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5950 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5950 2200 50  0001 C CNN
 F 3 "~" H 5950 2200 50  0001 C CNN
 F 4 "RNF14FTD100KCT-ND" V 5950 2200 50  0001 C CNN "Digi-Key Part"
 	1    5950 2200
 	0    1    1    0   
 $EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 5FB09256
+P 2150 900
+F 0 "#PWR0115" H 2150 750 50  0001 C CNN
+F 1 "+3.3V" H 2165 1073 50  0000 C CNN
+F 2 "" H 2150 900 50  0001 C CNN
+F 3 "" H 2150 900 50  0001 C CNN
+	1    2150 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 900  2150 1000
+Connection ~ 2150 1000
+Wire Wire Line
+	1800 7000 1800 5350
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:2N7000 Q6
+U 1 1 5FBA7ADE
+P 3100 6200
+F 0 "Q6" H 3250 6200 60  0000 L CNN
+F 1 "TN2106" H 3250 6100 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3_Formed_Leads" H 3300 6400 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BS170-D.PDF" H 3300 6500 60  0001 L CNN
+F 4 "TN2106N3-G-ND" H 3300 6600 60  0001 L CNN "Digi-Key Part"
+	1    3100 6200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6300 3400 6300
+$Comp
+L power:GND #PWR025
+U 1 1 5FBF1A5F
+P 3100 6450
+F 0 "#PWR025" H 3100 6200 50  0001 C CNN
+F 1 "GND" H 3105 6277 50  0000 C CNN
+F 2 "" H 3100 6450 50  0001 C CNN
+F 3 "" H 3100 6450 50  0001 C CNN
+	1    3100 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 6450 3100 6400
+Wire Wire Line
+	3100 6000 2000 6000
+Wire Wire Line
+	2000 6000 2000 6800
+$Comp
+L power:+5V #PWR024
+U 1 1 5FC3C407
+P 1200 6000
+F 0 "#PWR024" H 1200 5850 50  0001 C CNN
+F 1 "+5V" H 1215 6173 50  0000 C CNN
+F 2 "" H 1200 6000 50  0001 C CNN
+F 3 "" H 1200 6000 50  0001 C CNN
+	1    1200 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R21
+U 1 1 5FC3CB0A
+P 1500 6000
+F 0 "R21" V 1400 6000 50  0000 C CNN
+F 1 "10K" V 1600 6000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 1500 6000 50  0001 C CNN
+F 3 "~" H 1500 6000 50  0001 C CNN
+F 4 "CF14JT10K0CT-ND" V 1500 6000 50  0001 C CNN "Digi-Key Part"
+	1    1500 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1200 6000 1400 6000
+Wire Wire Line
+	1600 6000 2000 6000
+Connection ~ 2000 6000
+Text Notes 3950 5400 0    50   ~ 0
+Disable\nExt Trig
+Wire Wire Line
+	3900 3600 3900 6300
 $EndSCHEMATC
