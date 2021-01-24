@@ -49,7 +49,15 @@ Temporary Items
 .Spankulator.kicad_pcb*
 gerber.zip
 
+*.kicad_pcb-bak
+
 gerber/*
 fp-info-cache
 
 spice/*.raw
+
+~$*
+
+BOM.csv
+
+*.xml

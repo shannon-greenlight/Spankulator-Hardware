@@ -191,7 +191,7 @@ F 0 "C5" H 5242 6696 50  0000 L CNN
 F 1 "100nF" H 5150 6550 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 5150 6650 50  0001 C CNN
 F 3 "http://datasheets.avx.com/SR-Series.pdf" H 5150 6650 50  0001 C CNN
-F 4 "478-2472-ND" H 5150 6650 50  0001 C CNN "Digi-Key Part"
+F 4 "399-4329-ND" H 5150 6650 50  0001 C CNN "Digi-Key Part"
 	1    5150 6650
 	1    0    0    -1  
 $EndComp
@@ -268,7 +268,7 @@ F 0 "C6" H 5242 7046 50  0000 L CNN
 F 1 "100nF" H 5150 6900 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 5150 7000 50  0001 C CNN
 F 3 "http://datasheets.avx.com/SR-Series.pdf" H 5150 7000 50  0001 C CNN
-F 4 "478-2472-ND" H 5150 7000 50  0001 C CNN "Digi-Key Part"
+F 4 "399-4329-ND" H 5150 7000 50  0001 C CNN "Digi-Key Part"
 	1    5150 7000
 	1    0    0    -1  
 $EndComp
@@ -280,7 +280,7 @@ F 0 "C7" H 5000 5750 50  0000 L CNN
 F 1 "100nF" H 4950 5650 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 4900 5800 50  0001 C CNN
 F 3 "http://datasheets.avx.com/SR-Series.pdf" H 4900 5800 50  0001 C CNN
-F 4 "478-2472-ND" H 4900 5800 50  0001 C CNN "Digi-Key Part"
+F 4 "399-4329-ND" H 4900 5800 50  0001 C CNN "Digi-Key Part"
 	1    4900 5800
 	1    0    0    -1  
 $EndComp
@@ -391,7 +391,7 @@ U 1 1 5DA37CB8
 P 3350 7050
 F 0 "D6" H 3300 7200 50  0000 L CNN
 F 1 "1N4148" H 3200 6900 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 3350 6875 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3350 6875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/81857/1n4148.pdf" H 3350 7050 50  0001 C CNN
 F 4 "1N4148VSCT-ND" V 3350 7050 50  0001 C CNN "Digi-Key Part"
 	1    3350 7050
@@ -532,7 +532,7 @@ F 0 "SW1" H 1600 2850 50  0000 C CNN
 F 1 "Adj" H 1500 3376 50  0000 C CNN
 F 2 "digikey-footprints:Rotary_Encoder_Switched_PEC11R" H 1350 3260 50  0001 C CNN
 F 3 "~" H 1500 3360 50  0001 C CNN
-F 4 "PEC11R-4315F-S0012" H 1500 3100 50  0001 C CNN "Digi-Key Part"
+F 4 "PEC12R-4230F-S0024-ND" H 1500 3100 50  0001 C CNN "Digi-Key Part"
 	1    1500 3100
 	1    0    0    -1  
 $EndComp
@@ -1266,7 +1266,7 @@ F 0 "C9" H 4700 5750 50  0000 L CNN
 F 1 "100nF" H 4650 5650 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 4600 5800 50  0001 C CNN
 F 3 "http://datasheets.avx.com/SR-Series.pdf" H 4600 5800 50  0001 C CNN
-F 4 "478-2472-ND" H 4600 5800 50  0001 C CNN "Digi-Key Part"
+F 4 "399-4329-ND" H 4600 5800 50  0001 C CNN "Digi-Key Part"
 	1    4600 5800
 	1    0    0    -1  
 $EndComp
@@ -1836,7 +1836,7 @@ F 0 "C12" H 5542 6696 50  0000 L CNN
 F 1 "100nF" H 5450 6550 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 5450 6650 50  0001 C CNN
 F 3 "http://datasheets.avx.com/SR-Series.pdf" H 5450 6650 50  0001 C CNN
-F 4 "478-2472-ND" H 5450 6650 50  0001 C CNN "Digi-Key Part"
+F 4 "399-4329-ND" H 5450 6650 50  0001 C CNN "Digi-Key Part"
 	1    5450 6650
 	1    0    0    -1  
 $EndComp
@@ -1848,7 +1848,7 @@ F 0 "C13" H 5542 7046 50  0000 L CNN
 F 1 "100nF" H 5450 6900 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm" H 5450 7000 50  0001 C CNN
 F 3 "http://datasheets.avx.com/SR-Series.pdf" H 5450 7000 50  0001 C CNN
-F 4 "478-2472-ND" H 5450 7000 50  0001 C CNN "Digi-Key Part"
+F 4 "399-4329-ND" H 5450 7000 50  0001 C CNN "Digi-Key Part"
 	1    5450 7000
 	1    0    0    -1  
 $EndComp
@@ -2028,7 +2028,7 @@ U 1 1 5EC79B09
 P 3350 5000
 F 0 "D13" H 3300 5150 50  0000 L CNN
 F 1 "1N4148" H 3200 4850 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 3350 4825 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3350 4825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/81857/1n4148.pdf" H 3350 5000 50  0001 C CNN
 F 4 "1N4148VSCT-ND" V 3350 5000 50  0001 C CNN "Digi-Key Part"
 	1    3350 5000
@@ -2364,7 +2364,7 @@ F 0 "Q5" H 8340 1246 50  0000 L CNN
 F 1 "2N3904" H 8340 1155 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 8350 1125 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8150 1200 50  0001 L CNN
-F 4 "2N3904FS-ND" H 8150 1200 50  0001 C CNN "Digi-Key Part"
+F 4 "2N3904-APCT-ND" H 8150 1200 50  0001 C CNN "Digi-Key Part"
 	1    8150 1200
 	1    0    0    -1  
 $EndComp
@@ -2376,7 +2376,7 @@ F 0 "Q3" H 6890 1846 50  0000 L CNN
 F 1 "2N3904" H 6900 1750 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_HandSolder" H 6900 1725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6700 1800 50  0001 L CNN
-F 4 "2N3904FS-ND" H 6700 1800 50  0001 C CNN "Digi-Key Part"
+F 4 "2N3904-APCT-ND" H 6700 1800 50  0001 C CNN "Digi-Key Part"
 	1    6700 1800
 	1    0    0    -1  
 $EndComp
@@ -2557,7 +2557,7 @@ U 1 1 5F3B9874
 P 5950 2200
 F 0 "R12" V 5850 2200 50  0000 C CNN
 F 1 "100K" V 6050 2200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 5950 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 5950 2200 50  0001 C CNN
 F 3 "~" H 5950 2200 50  0001 C CNN
 F 4 "RNF14FTD100KCT-ND" V 5950 2200 50  0001 C CNN "Digi-Key Part"
 	1    5950 2200
@@ -2642,4 +2642,26 @@ Text Notes 3950 5400 0    50   ~ 0
 Disable\nExt Trig
 Wire Wire Line
 	3900 3600 3900 6300
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5FECD3EA
+P 800 1850
+F 0 "H6" H 900 1896 50  0000 L CNN
+F 1 "MountingHole" H 900 1805 50  0000 L CNN
+F 2 "sputterizer:MountingHole_2.5mm-No-Margin" H 800 1850 50  0001 C CNN
+F 3 "~" H 800 1850 50  0001 C CNN
+	1    800  1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5FECD7EE
+P 800 2050
+F 0 "H7" H 900 2096 50  0000 L CNN
+F 1 "MountingHole" H 900 2005 50  0000 L CNN
+F 2 "sputterizer:MountingHole_2.5mm-No-Margin" H 800 2050 50  0001 C CNN
+F 3 "~" H 800 2050 50  0001 C CNN
+	1    800  2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

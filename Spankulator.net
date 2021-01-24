@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Shannon\Dropbox\moog\spankulator\Spankulator-Hardware\Spankulator.sch)
-    (date "11/7/2020 6:52:36 AM")
+    (date "12/28/2020 5:41:11 PM")
     (tool "Eeschema (5.1.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -151,7 +151,7 @@
       (tstamp 5E2C31DF))
     (comp (ref D6)
       (value 1N4148)
-      (footprint Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp)
+      (footprint Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal)
       (datasheet http://www.vishay.com/docs/81857/1n4148.pdf)
       (fields
         (field (name "Digi-Key Part") 1N4148VSCT-ND))
@@ -778,7 +778,7 @@
       (tstamp 5ED0C40A))
     (comp (ref D13)
       (value 1N4148)
-      (footprint Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp)
+      (footprint Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal)
       (datasheet http://www.vishay.com/docs/81857/1n4148.pdf)
       (fields
         (field (name "Digi-Key Part") 1N4148VSCT-ND))
@@ -886,7 +886,7 @@
       (tstamp 5FB5A5F2))
     (comp (ref R12)
       (value 100K)
-      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical)
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
       (datasheet ~)
       (fields
         (field (name "Digi-Key Part") RNF14FTD100KCT-ND))
@@ -910,7 +910,21 @@
         (field (name "Digi-Key Part") CF14JT10K0CT-ND))
       (libsource (lib Device) (part R_Small_US) (description "Resistor, small US symbol"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5FC3CB0A)))
+      (tstamp 5FC3CB0A))
+    (comp (ref H6)
+      (value MountingHole)
+      (footprint sputterizer:MountingHole_2.5mm-No-Margin)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5FECD3EA))
+    (comp (ref H7)
+      (value MountingHole)
+      (footprint sputterizer:MountingHole_2.5mm-No-Margin)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part MountingHole) (description "Mounting Hole without connection"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5FECD7EE)))
   (libparts
     (libpart (lib 4xxx_IEEE) (part 4013)
       (fields
