@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Spankulator"
 Date ""
 Rev "2.2"
@@ -23,6 +23,7 @@ F 1 "Arduino_Nano_33IoT" H 5300 3300 50  0000 C CNN
 F 2 "Module:Arduino_Nano" H 4650 1950 50  0001 L CNN
 F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 4500 1900 50  0001 C CNN
 F 4 "1050-ABX00032-ND" H 4500 2900 50  0001 C CNN "Digi-Key Part"
+F 5 "https://www.amazon.com/Arduino-Nano-33-IoT/dp/B07VW9TSKD/" H 4500 2900 50  0001 C CNN "URL"
 	1    4500 2900
 	1    0    0    -1  
 $EndComp
@@ -1215,50 +1216,6 @@ F 12 "Active" H 5950 4800 60  0001 L CNN "Status"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
-U 1 1 5FB7B7DF
-P 800 950
-F 0 "H2" H 900 996 50  0000 L CNN
-F 1 "MountingHole" H 900 905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 800 950 50  0001 C CNN
-F 3 "~" H 800 950 50  0001 C CNN
-	1    800  950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5FB7C675
-P 800 1150
-F 0 "H3" H 900 1196 50  0000 L CNN
-F 1 "MountingHole" H 900 1105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 800 1150 50  0001 C CNN
-F 3 "~" H 800 1150 50  0001 C CNN
-	1    800  1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5FB7CA90
-P 800 750
-F 0 "H1" H 900 796 50  0000 L CNN
-F 1 "MountingHole" H 900 705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 800 750 50  0001 C CNN
-F 3 "~" H 800 750 50  0001 C CNN
-	1    800  750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5FB7D114
-P 800 1350
-F 0 "H4" H 900 1396 50  0000 L CNN
-F 1 "MountingHole" H 900 1305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm" H 800 1350 50  0001 C CNN
-F 3 "~" H 800 1350 50  0001 C CNN
-	1    800  1350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C9
 U 1 1 5FC2C4E3
 P 4600 5800
@@ -1307,17 +1264,6 @@ F 1 "GND" H 3905 1827 50  0000 C CNN
 F 2 "" H 3900 2000 50  0001 C CNN
 F 3 "" H 3900 2000 50  0001 C CNN
 	1    3900 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 5E5112C7
-P 800 1650
-F 0 "H5" H 900 1696 50  0000 L CNN
-F 1 "MountingHole" H 900 1605 50  0000 L CNN
-F 2 "sputterizer:MountingHole_2.5mm-No-Margin" H 800 1650 50  0001 C CNN
-F 3 "~" H 800 1650 50  0001 C CNN
-	1    800  1650
 	1    0    0    -1  
 $EndComp
 Text Label 3200 2200 0    50   ~ 0
@@ -2642,6 +2588,67 @@ Text Notes 3950 5400 0    50   ~ 0
 Disable\nExt Trig
 Wire Wire Line
 	3900 3600 3900 6300
+$Sheet
+S 10000 5250 1050 800 
+U 6013D485
+F0 "Sheet6013D484" 50
+F1 "SpankParts.sch" 50
+$EndSheet
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FB7B7DF
+P 800 950
+F 0 "H2" H 900 996 50  0000 L CNN
+F 1 "MountingHole" H 900 905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 800 950 50  0001 C CNN
+F 3 "~" H 800 950 50  0001 C CNN
+	1    800  950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FB7C675
+P 800 1150
+F 0 "H3" H 900 1196 50  0000 L CNN
+F 1 "MountingHole" H 900 1105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 800 1150 50  0001 C CNN
+F 3 "~" H 800 1150 50  0001 C CNN
+	1    800  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FB7CA90
+P 800 750
+F 0 "H1" H 900 796 50  0000 L CNN
+F 1 "MountingHole" H 900 705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 800 750 50  0001 C CNN
+F 3 "~" H 800 750 50  0001 C CNN
+	1    800  750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FB7D114
+P 800 1350
+F 0 "H4" H 900 1396 50  0000 L CNN
+F 1 "MountingHole" H 900 1305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm" H 800 1350 50  0001 C CNN
+F 3 "~" H 800 1350 50  0001 C CNN
+	1    800  1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5E5112C7
+P 800 1650
+F 0 "H5" H 900 1696 50  0000 L CNN
+F 1 "MountingHole" H 900 1605 50  0000 L CNN
+F 2 "sputterizer:MountingHole_2.5mm-No-Margin" H 800 1650 50  0001 C CNN
+F 3 "~" H 800 1650 50  0001 C CNN
+	1    800  1650
+	1    0    0    -1  
+$EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 5FECD3EA
