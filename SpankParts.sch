@@ -438,4 +438,52 @@ F 4 "H3CCS-1618G-ND" H 7400 3350 50  0001 C CNN "Digi-Key Part"
 	1    7400 3350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole SC6
+U 1 1 60202F7D
+P 1300 2450
+F 0 "SC6" H 1400 2496 50  0000 L CNN
+F 1 "Mounting Screw" H 1400 2405 50  0000 L CNN
+F 2 "" H 1300 2450 50  0001 C CNN
+F 3 "~" H 1300 2450 50  0001 C CNN
+F 4 "335-1156-ND" H 1300 2450 50  0001 C CNN "Digi-Key Part"
+	1    1300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole SC7
+U 1 1 60203216
+P 2100 2450
+F 0 "SC7" H 2200 2496 50  0000 L CNN
+F 1 "Mounting Screw" H 2200 2405 50  0000 L CNN
+F 2 "" H 2100 2450 50  0001 C CNN
+F 3 "~" H 2100 2450 50  0001 C CNN
+F 4 "335-1156-ND" H 2100 2450 50  0001 C CNN "Digi-Key Part"
+	1    2100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole SC8
+U 1 1 60203626
+P 2900 2450
+F 0 "SC8" H 3000 2496 50  0000 L CNN
+F 1 "Mounting Screw" H 3000 2405 50  0000 L CNN
+F 2 "" H 2900 2450 50  0001 C CNN
+F 3 "~" H 2900 2450 50  0001 C CNN
+F 4 "335-1156-ND" H 2900 2450 50  0001 C CNN "Digi-Key Part"
+	1    2900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole SC9
+U 1 1 602039B1
+P 3700 2450
+F 0 "SC9" H 3800 2496 50  0000 L CNN
+F 1 "Mounting Screw" H 3800 2405 50  0000 L CNN
+F 2 "" H 3700 2450 50  0001 C CNN
+F 3 "~" H 3700 2450 50  0001 C CNN
+F 4 "335-1156-ND" H 3700 2450 50  0001 C CNN "Digi-Key Part"
+	1    3700 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
