@@ -46,12 +46,12 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-.Spankulator.kicad_pcb*
-gerber.zip
+.Spankulator.kicad_pcb-bak
+*.zip
 
 *.kicad_pcb-bak
 
-gerber/*
+
 fp-info-cache
 
 spice/*.raw

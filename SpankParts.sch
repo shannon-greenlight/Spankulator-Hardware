@@ -63,10 +63,10 @@ F 4 "RPC3448-ND" H 3700 1100 50  0001 C CNN "Digi-Key Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Sockets-for-ICs-Transistors:A_08-LC-TT SK4
+L dk_Sockets-for-ICs-Transistors:A_08-LC-TT SK1
 U 1 1 601404F9
 P 8300 1050
-F 0 "SK4" H 8300 1425 50  0000 C CNN
+F 0 "SK1" H 8300 1425 50  0000 C CNN
 F 1 "A_08-LC-TT" H 8300 1334 50  0000 C CNN
 F 2 "" H 8500 1250 60  0001 L CNN
 F 3 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" H 8500 1350 60  0001 L CNN
@@ -75,10 +75,10 @@ F 4 "AE9986-ND" H 8500 1450 60  0001 L CNN "Digi-Key Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Sockets-for-ICs-Transistors:A_08-LC-TT SK5
+L dk_Sockets-for-ICs-Transistors:A_08-LC-TT SK2
 U 1 1 6014097E
 P 9000 1050
-F 0 "SK5" H 9000 1425 50  0000 C CNN
+F 0 "SK2" H 9000 1425 50  0000 C CNN
 F 1 "A_08-LC-TT" H 9000 1334 50  0000 C CNN
 F 2 "" H 9200 1250 60  0001 L CNN
 F 3 "http://www.assmann-wsw.com/fileadmin/datasheets/ASS_0810_CO.pdf" H 9200 1350 60  0001 L CNN
@@ -403,10 +403,10 @@ F 4 "1722-1241-ND" H 3000 4300 50  0001 C CNN "Digi-Key Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x15_Female J12
+L Connector:Conn_01x15_Female J13
 U 1 1 601EA3CE
 P 4750 3600
-F 0 "J12" H 4778 3626 50  0000 L CNN
+F 0 "J13" H 4778 3626 50  0000 L CNN
 F 1 "Arduino Socket" H 4778 3535 50  0000 L CNN
 F 2 "" H 4750 3600 50  0001 C CNN
 F 3 "~" H 4750 3600 50  0001 C CNN
@@ -415,10 +415,10 @@ F 4 "S7048-ND" H 4750 3600 50  0001 C CNN "Digi-Key Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x15_Female J13
+L Connector:Conn_01x15_Female J14
 U 1 1 601EC2BA
 P 5600 3600
-F 0 "J13" H 5628 3626 50  0000 L CNN
+F 0 "J14" H 5628 3626 50  0000 L CNN
 F 1 "Arduino Socket" H 5628 3535 50  0000 L CNN
 F 2 "" H 5600 3600 50  0001 C CNN
 F 3 "~" H 5600 3600 50  0001 C CNN
@@ -427,10 +427,10 @@ F 4 "S7048-ND" H 5600 3600 50  0001 C CNN "Digi-Key Part"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J14
+L Connector_Generic:Conn_02x08_Odd_Even J12
 U 1 1 6019936C
 P 7400 3350
-F 0 "J14" H 7450 3867 50  0000 C CNN
+F 0 "J12" H 7450 3867 50  0000 C CNN
 F 1 "Eurorack Power Cable" H 7450 3776 50  0000 C CNN
 F 2 "" H 7400 3350 50  0001 C CNN
 F 3 "~" H 7400 3350 50  0001 C CNN
